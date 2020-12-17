@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Meta, title, CSS, favicons, etc. -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="GeoLD2021, the 4th International Workshop on Geospatial Linked Data at Extended Semantic Web Conference 2021, Crete, Greece">
+	<meta name="author" content="Matthias Wauer">
+	<title>GeoLD2021 4th International Workshop on Geospatial Linked Data</title>
+
+	<!-- Styles -->
+	<link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='assets/css/animate.min.css'>
+	<link rel='stylesheet' href="assets/css/font-awesome.min.css"/>
+	<link rel='stylesheet' href="assets/css/style.css"/>
+
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="#">
+</head>
+<body>
+<!-- Begin Hero Bg -->
+<div id="parallax" style="background-image: url(assets/img/geold-background.jpg);">
+</div>
+<!-- End Hero Bg
+	================================================== -->
+<!-- Start Header
+	================================================== -->
+<header id="header" class="navbar navbar-inverse navbar-fixed-top" role="banner">
+<div class="container">
+	<div class="navbar-header">
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<!-- Your Logo -->
+		<a href="#" class="navbar-brand">GeoLD<span class="lighter">2021</span></a>
+	</div>
+	<!-- Start Navigation -->
+	<nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+	<ul class="nav navbar-nav">
+		<li>
+		<a href="#hero">Introduction</a>
+		</li>
+		<li>
+		<a href="#dates">Important Dates</a>
+		</li>
+		<li>
+		<a href="#cfp">Call for Papers</a>
+		</li>
+		<li>
+		<a href="#submission">Submission</a>
+		</li>
+		<li>
+		<a href="#agenda">Agenda</a>
+		</li>
+		<li>
+		<a href="#committee">Committee</a>
+		</li>
+		<li>
+		<a href="#links">Links</a>
+		</li>
+		<!--<li>
+		<a href="#contactarea">Contact</a>
+		</li>-->
+	</ul>
+	</nav>
+</div>
+</header>
+
+<!-- Intro
+	================================================== -->
+<section id="hero" class="section">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="herotext">
+				<h1 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s">GeoLD<span class="lighter">2021</span></h1>
+				<p class="lead wow zoomIn" data-wow-duration="1s" data-wow-delay="0.5s">
+					<strong>4th International Workshop on Geospatial Linked Data</strong> at ESWC 2021
+				</p>
+				<p>
+					<a href="#cfp" class="btn btn-default btn-lg wow fadeInLeft" role="button"> Call for Papers </a>
+					 &nbsp; <a href="#submission" class="btn btn-default btn-lg wow fadeInRight" role="button">Submission</a>
+					 &nbsp; <a href="#committee" class="btn btn-default btn-lg wow fadeInRight" role="button">Committee</a>
+				</p>
+			</div>
+		</div>
+<!--		<div class="col-md-7">
+		</div>-->
+	</div>
+</div>
+</section>
+<!-- Important Dates
+  ================================================== -->
+<section id="dates" class="parallax section">
+	<div class="wrapsection">
+		<div class="parallax-overlay" style="background-color: #fff;opacity:0.9;"></div>
+		<div class="container" style="color: #000;">
+			<div class="item">
+				<h3 class="section-title wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.1s">Important <strong>Dates</strong></h3>
+			</div>
+			<div class="row">
+				<div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+					<h4><span class="glyphicon glyphicon-circle-arrow-right"></span> Submission deadline:</h4>
+					March 1st, 2021 – 23:59
+				</div>
+				<div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+					<h4><span class="glyphicon glyphicon-thumbs-up"></span> Notification of acceptance:</h4>
+					March 31st, 2021 – 23:59
+				</div>
+				<div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
+					<h4><span class="glyphicon glyphicon-camera"></span> Camera-ready version due:</h4>
+					April 9th, 2021 – 23:59
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Quote -->
+<section class="parallax section"  style="background-image: url(assets/img/geold-background.jpg);">
+	<div class="wrapsection">
+		<div class="parallax-overlay" style="background-color: #000;opacity:0.6;"></div>
+		<div class="container">
+			<div class="item">
+				<blockquote>
+						<p class="lead">
+								“Geospatial technology, information, and services are addressing some of the major priorities of our nations, adding value to productivity, reducing costs and enabling GDP growth in the process.”
+						</p>
+						<small>Prof. Arup Dasgupta, in <a href="https://www.geospatialworld.net/article/economic-value-of-geospatial-data-the-great-enabler/" style="color:#90c0e8;">Geospatial World</a>, May 2013</small>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Call for Papers
+	================================================== -->
+<section id="cfp" class="parallax section" style="background-image: url(assets/img/europe.jpg);">
+<div class="wrapsection">
+	<div class="parallax-overlay" style="background-color: #00a3c1;opacity:0.9;"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- Title -->
+				<div class="maintitle">
+					<h3 class="section-title"><strong>Call for Papers <span class="lighter">and topics</span></strong></h3>
+					<!--<p class="lead">--><p>
+						Geospatial data is vital for both traditional applications like navigation, logistics, and tourism and emerging areas like autonomous vehicles, smart buildings and GIS on demand. Spatial linked data has recently transitioned from experimental prototypes to national infrastructure. However the next generation of spatial knowledge graphs will integrate multiple spatial datasets with the large number of general datasets that contain some geospatial references (e.g.,  DBpedia, Wikidata). This integration, either on the public Web or within organizations has immense socio-economic as well as academic benefits. The upsurge in Linked data related presentations in the  recent Eurogeographics data quality workshop  shows the deep interest in Geospatial Linked Data (GLD) in national mapping agencies. GLD enables a web-based, interoperable geospatial infrastructure. This is especially relevant for delivering the INSPIRE directive in Europe. Moreover, geospatial information systems benefit from Linked Data principles in building the next generation of spatial data applications e.g., federated smart buildings, self-piloted vehicles, delivery drones or automated local authority services.
+					</p>
+
+					<p>
+						This workshop invites papers covering the challenges and solutions for handling with GLD, especially for building high quality, adaptable, geospatial infrastructures and next-generation spatial applications. We aim to demonstrate the latest approaches and implementations and to discuss the solutions to challenges and issues arising from research and industrial organizations.
+					</p>
+
+	<!-- 				<p>
+						Topics include, but are not limited, to the following:
+					</p> -->
+
+					<p>
+					</p>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-6">
+				<div class="service-box wow fadeIn" data-wow-duration="1.0s" data-wow-delay="0.1s">
+					<span class="glyphicon glyphicon-transfer"></span>
+					<h4>Interoperability and Integration</h4>
+					<p>
+						<ul>
+						<li>Geospatial Linked Data vocabularies and standards (GeoSPARQL, INSPIRE, W3C, OGC)</li>
+						<li>Extraction/transformation of Geospatial Linked Data from native geospatial data sources</li>
+						<li>Integration (schema mapping, interlinking, fusion) techniques for Geospatial RDF Data</li>
+						<li>Enrichment, quality and evolution of Linked Data with Geospatial information</li>
+						<li>Machine Learning improving Geospatial Linked Data processing</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-6">
+				<div class="service-box wow fadeIn" data-wow-duration="1.0s" data-wow-delay="0.2s">
+					<span class="glyphicon glyphicon-globe"></span>
+					<h4>Big Geospatial Data Management</h4>
+					<p>
+						<ul>
+						<li>Distributed solutions for Geospatial Linked Data management (storing, querying, mapping)</li>
+						<li>Algorithms and tools for large scale, scalable Geospatial Linked Data management</li>
+						<li>Efficient Indexing and Querying of Geospatial Linked Data</li>
+						<li>Geospatial-specific Reasoning on RDF Data</li>
+						<li>Ranking techniques on querying Geospatial RDF Data</li>
+						<li>Advanced querying capabilities on Geospatial RDF Data</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-6">
+				<div class="service-box wow fadeIn" data-wow-duration="1.0s" data-wow-delay="0.3s">
+					<span class="glyphicon glyphicon-eye-open"></span>
+					<h4>Utilization of Geospatial Linked Data</h4>
+					<p>
+						<ul>
+						<li>Benchmarking of Geospatial Linked Data applications</li>
+						<li>Geospatial Linked Data in social web platforms and applications</li>
+						<li>Visualization models/interfaces for browsing/authoring/querying Geospatial Linked Data</li>
+						<li>Real world applications/use cases/paradigms using Geospatial Linked Data</li>
+						<li>Evaluation/comparison of tools/libraries/frameworks for Geospatial Linked Data</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Submission
+  ================================================== -->
+<section id="submission" class="parallax section" style="background-image: url(assets/img/europe.jpg);">
+<div class="wrapsection">
+	<div class="parallax-overlay" style="background-color: #003850;opacity:0.9;"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 cfp">
+				<h3>Submission instructions</h3>
+				<p>
+					All papers must be original and not simultaneously submitted to another journal or conference. The following paper categories are welcome:​​​​​​​
+					<ul>
+						<li><strong>Long papers (up to 12 pages)</strong>: Presenting novel scientific research pertaining to geospatial Linked Data.</li>
+						<li><strong>Short papers (up to 6 pages)</strong>: Position papers, System, Library, API and Dataset descriptions, relevant to the topics of interest.</li>
+						<li><strong>Demo/Tutorial papers (up to 4 pages)</strong>: Describe a demo or hands-on tutorial of a tool on the workshop topics.</li>
+					</ul>
+				</p>
+			</div>
+			<div class="col-md-5">
+				<div class="service-box">
+					Submissions must be in English formatted in the style of the Springer Publications format for Lecture Notes in Computer Science (LNCS). For details on the LNCS style, see <a href="http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0">Springer’s Author Instructions</a>.
+We accept PDF submissions as well as HTML submissions in <a href="https://github.com/essepuntato/rash">RASH</a> or <a href="https://github.com/linkeddata/dokieli">dokieli</a>.
+				</div>
+			</div>
+			<div class="col-md-7">
+				<div class="service-box">
+					Papers must be submitted through the EasyChair system [link to be published later] no later than midnight March 1st, 2021, Hawaii Time. Submissions will be reviewed by members of the workshop program committee. Papers will be evaluated according to their significance, originality, technical content, style, clarity, and relevance to the workshop.
+					<!-- Papers must be submitted through the EasyChair system <a href="https://easychair.org/conferences/?conf=geold2018">https://easychair.org/conferences/?conf=geold2018</a> no later than midnight Friday March 2, 2018, Hawaii Time. Submissions will be reviewed by members of the workshop program committee. Papers will be evaluated according to their significance, originality, technical content, style, clarity, and relevance to the workshop. -->
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="service-box">
+					The complete set of papers will be published with the CEUR Workshop Proceedings (CEUR-WS.org) and listed by the DBLP.
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Agenda
+	================================================== -->
+<section id="agenda" class="parallax section" style="background-image: url(assets/img/sunset.jpg);">
+	<div class="wrapsection">
+	<div class="parallax-overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="maintitle">
+					<h3 class="section-title justtitle">AGENDA / PROCEEDINGS</h3>
+<!--					<p class="lead bottom0 wow bounceInUp">
+						The workshop was held in the afternoon of 3 June. Proceedings:
+					</p>-->
+				</div>
+				<div>
+					<div class="proceedings-box">
+						<p>To be announced</p>
+<!-- 						<p><a href="https://slidewiki.org/presentation/111329"><span class="glyphicon glyphicon-picture"></span></a>
+	Ali Khalili, Peter van den Besselaar and Klaas Andries de Graaf<br><a href="http://ceur-ws.org/Vol-2110/paper1.pdf">Using Linked Open Geo Boundaries for Adaptive Delineation of Functional Urban Areas</a></p>
+						<p><a href="slides/AlanMeehan_GeoLD18_presentation.pdf"><span class="glyphicon glyphicon-picture"></span></a>
+	Alan Meehan, Kaniz Fatema, Rob Brennan, Eamonn Clinton, Lorraine McNerney and Declan O'Sullivan<br><a href="http://ceur-ws.org/Vol-2110/paper2.pdf">License and Template Access Control for Geospatial Linked Data<a></p>
+						<p><a href="slides/imm7104.pdf"><span class="glyphicon glyphicon-picture"></span></a>
+	Finn Årup Nielsen, Daniel Mietchen and Egon Willighagen<br><a href="http://ceur-ws.org/Vol-2110/paper3.pdf">Geospatial data and Scholia</a></p>
+						<p><a href="slides/PeruBhardwaj_GeoLD2018_presentation.pdf"><span class="glyphicon glyphicon-picture"></span></a>
+	Peru Bhardwaj, Christophe Debruyne and Declan O'Sullivan<br><a href="http://ceur-ws.org/Vol-2110/paper4.pdf">On the Overlooked Challenges of Link Discovery</></p>
+						<p><a href="slides/MatthiasWauer_GeoLD2018_slides.pdf"><span class="glyphicon glyphicon-picture"></span></a>
+	Matthias Wauer and Axel-Cyrille Ngonga Ngomo<br><a href="http://ceur-ws.org/Vol-2110/paper5.pdf">Towards a Semantic Message-driven Microservice Platform for Geospatial and Sensor Data</a></p>
+						<p><b>
+							<span class="glyphicon glyphicon-book"></span> The <a href="http://www.ceur-ws.org/Vol-2110/">proceedings including preface and reviews</a> are published at CEUR-WS. We offer a <a href="geold-quweda-2018.bib">BibTeX file</a> for citing papers of this workshop.
+						</b></p> -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
+<!-- Committee
+	================================================== -->
+<section id="committee" class="parallax section" style="background-image: url(assets/img/geold-background.jpg);">
+<div class="wrapsection">
+	<div class="parallax-overlay" style="background-color:#003850;opacity:0.9;"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="maintitle">
+					<h3 class="section-title">Organizing Committee</h3>
+					<p class="lead wow flipInX">
+						The organizing committee consists of the following members:
+					</p>
+				</div>
+			</div>
+
+			<!-- <div class="col-md-4 col-xs-12">
+				<p>Matthias Wauer (University of Leipzig, Germany)
+				<a href="mailto:dr.matthias.wauer@gmail.com">
+					<span class="glyphicon glyphicon-envelope"></span>
+					<b>Contact</b>
+				</a>
+				</p>
+			</div> -->
+			<div class="col-md-4 col-xs-12">
+				<p>Dr. Beyza Yaman (Dublin City University, Ireland)</p>
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<p>Dr. Mohamed Ahmed Sherif (University of Paderborn, Germany)</p>
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<p>Assoc. Prof. Dr. Armin Haller (Australian National University, Australia)</p>
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<p>Prof. Dr. Axel-Cyrille Ngonga Ngomo (University of Paderborn, Germany)</p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<p></p>
+		<div class="faq-block wow bounceInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsePC">
+                    Program Committee (in random order)</a>
+                    </h4>
+                </div>
+                <div id="collapsePC" class="panel-collapse collapse">
+                    <div class="panel-body">
+											<p>Konstantina Bareta, Marine Traffic, Greece<br>
+											Manolis Koubarakis, National and Kapodistrian University of Athens, Greece<br>
+											Sergio José Rodríguez Méndez, Australian National University, Australia<br>
+											Giorgos Giannopoulos,  Athena Institute for the Management of Information Systems,  Greece<br>
+										    Dr. Matthias Wauer, AKSW, University of Leipzig, Germany<br>
+											Eamonn Clinton, Ordnance Survey Ireland, Ireland<br>
+											Kris McGlinn, Trinity College Dublin, Ireland<br>
+											Anuj Singh, GeoPhy, The Netherlands<br>
+											Kevin Dreßler, DICE research group, University of Paderborn, Germany<br>
+											Abdullah Fathi Ahmed, University of Leipzig, Germany<br>
+											Hamada Zahera, University of Paderborn, Germany<br>
+											Dr. Milos Jovanovik, Ss. Cyril and Methodius University in Skopje, N. Macedonia<br>
+											Adrian Wilke, DICE research group, University of Paderborn, Germany<br>
+											<!-- Henning Hasemann, TomTom<br>
+											Ricardo Usbeck, University of Paderborn<br>
+											Konstantina Bereta, National and Kapodistrian University of Athens<br>
+											Ivan Ermilov, University of Leipzig<br>
+											Johannes Trame, metaphacts -->
+											</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	</div>
+</div>
+</section>
+<!-- Links
+	================================================== -->
+<section id="links" class="section">
+<div class="wrapsection">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="maintitle">
+					<h3 class="section-title">Links</h3>
+					<p class="lead">
+						The following links might be helpful for context on relevant publications and the hosting conference.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-xs-12">
+				<center>
+				<span class="glyphicon glyphicon-file"></span> <a href="https://geold2018.github.io/">3rd workshop GeoLD 2018</a>
+			  </center>
+			</div>
+			<!-- <div class="col-md-4 col-xs-12">
+				<center>
+				<span class="glyphicon glyphicon-file"></span> <a href="http://geold.geoknow.eu/">2nd GeoLD Workshop 2015</a>
+	  		</center>
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<center>
+				<span class="glyphicon glyphicon-file"></span> <a href="http://geold.geoknow.eu/?page_id=64">1st GeoLD Workshop 2014</a>
+  			</center>
+			</div> -->
+		</div>
+		<div class="row" style="margin-top:3em;">
+			<div class="col-md-4 col-xs-12">
+				<img src="assets/img/ulei.png">
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<img src="assets/img/upb.png" style="margin:1.4em;">
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<center>
+				<img src="assets/img/dice.png" style="margin-top:1em;width:35%;">
+			</center>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Contact
+	================================================== -->
+<!--<section id="contactarea" class="parallax section" style="background-image: url(http://themepush.com/demo/runcharity/assets/img/map.png);">
+<div class="wrapsection">
+	<div class="parallax-overlay" style="background-color: #1cbb9b;opacity:0.95;"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="maintitle">
+					<h3 class="section-title">Get in Touch</h3>
+					<p class="lead">
+						If you have questions about our events, don't hesitate to send us your message. This is a real working contact form, test it!
+					</p>
+				</div>
+				<form id="contact" name="contact" method="post" class="text-left">
+					<fieldset>
+						<div class="row">
+							<div class="col-md-4 wow fadeIn animated animated" data-wow-delay="0.1s" data-wow-duration="2s">
+								<label for="name">Name<span class="required">*</span></label>
+								<input type="text" name="name" id="name" size="30" value="" required/>
+							</div>
+							<div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
+								<label for="email">Email<span class="required">*</span></label>
+								<input type="text" name="email" id="email" size="30" value="" required/>
+							</div>
+							<div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
+								<label for="phone">Phone</label>
+								<input type="text" name="phone" id="phone" size="30" value=""/>
+							</div>
+						</div>
+						<div class="wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="1.5" style="margin-top:15px;">
+							<label for="message">Message<span class="required">*</span></label>
+							<textarea name="message" id="message" required></textarea>
+						</div>
+						<div class="wow fadeIn animated" data-wow-delay="0.3" data-wow-duration="1.5s">
+							<input id="submit" type="submit" name="submit" value="Send"/>
+						</div>
+					</fieldset>
+				</form>
+				<div id="success">
+					<p class="contactalert">
+						Your message was sent succssfully! I will be in touch as soon as I can.
+					</p>
+				</div>
+				<div id="error">
+					<p class="contactalert">
+						 Something went wrong, try refreshing and submitting the form again.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+-->
+<!-- Credits
+=============================================== -->
+<section id="credits" class="text-center">
+	<!--
+	<span class="social wow zoomIn">
+	<a href="#"><i class="fa fa-facebook"></i></a>
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	<a href="#"><i class="fa fa-skype"></i></a>
+	<a href="#"><i class="fa fa-linkedin"></i></a>
+	<a href="#"><i class="fa fa-pinterest"></i></a>
+	<a href="#"><i class="fa fa-google-plus"></i></a>
+	</span><br/>
+-->
+	Copyright &copy; <a href="#">The GeoLD2021 Organising Committee</a>
+	<br/>Template By <i class="fa fa-heart"></i> WowThemes.Net
+</section>
+<!-- Bootstrap core JavaScript
+	================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/jquery.scrollTo.min.js"></script>
+<script src="assets/js/jquery.localScroll.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/validate.js"></script>
+<script src="assets/js/common.js"></script>
+</body>
+</html>
