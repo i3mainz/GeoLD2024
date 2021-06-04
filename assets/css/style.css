@@ -1286,3 +1286,10 @@ img.mfp-img {
 	font-weight: bold;
 }
 
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 15px;
+}
