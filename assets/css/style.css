@@ -1285,11 +1285,3 @@ img.mfp-img {
 .proceedings-box a {
 	font-weight: bold;
 }
-
-table, th, td {
-  border: 1px solid black;
-}
-
-th, td {
-  padding: 15px;
-}
